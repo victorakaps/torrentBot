@@ -1,0 +1,25 @@
+{
+  "name": "torrentbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "requests": "^0.3.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "13.7.0"
+  }
+}
